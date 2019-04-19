@@ -19,9 +19,9 @@ Após instalar todos os pré-requisitos necessários, execute os próximos passo
 
 ```sh
 # Clone o repositório do projeto
-$ git clone https://github.com/autscc/octo-events.git
+$ git clone https://github.com/autscc/ctis-hackathon.git
 # Navegue até a pasta root da aplicação
-$ cd octo-events-api
+$ cd ctis-hackathon
 # Instale todas as dependências
 $ mvn clean install
 ```
@@ -62,6 +62,10 @@ Acrescente a configuração de DataSource abaixo no arquivo **standalone.xml** d
 Após concluir a configuração do servidor, coloque o **hackathon-ear** como o artefato que será feito o deploy e incie o server.
 
 > **importante:** O contexto da aplicação é **/hackathon-backend/api/v1/**.
+
+## Swagger UI
+
+Para acessar o Swagger UI, abra o seguinte link no seu navegador: http://localhost:8080/hackathon-backend/doc/index.htm
 
 ## Constrúido com
 
